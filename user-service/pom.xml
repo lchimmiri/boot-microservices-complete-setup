@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.learning</groupId>
-	<artifactId>department-service</artifactId>
+	<artifactId>user-service</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<name>department-service</name>
-	<description>department-service</description>
+	<name>user-service</name>
+	<description>user-service</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -32,14 +32,12 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-
 		<dependencies>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-devtools</artifactId>
 			</dependency>
 		</dependencies>
-
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
